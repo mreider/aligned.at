@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Gambarino';
+  src: url(/src/assets/Gambarino.woff2) format('woff2');;
+}
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+
+// Your custom styles
+.hero {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+}
+
+body {
+  @media (max-width: 768px) { // Adjust for tablets and below
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  @media (min-width: 769px) { // Adjust for laptops and above
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gam {
+  font-family: 'Gambarino';
+}
+
+
+
+  /* Additional custom styles to reduce spacing */
+  .reduced-padding {
+    padding-top: 1rem !important; /* Reduce top padding */
+    padding-bottom: 1rem !important; /* Reduce bottom padding */
+}
+.reduced-margin {
+    margin-bottom: 1rem !important; /* Reduce bottom margin */
+}
+
+.narrow-container {
+  max-width: 800px; /* Adjust this value as needed */
+  margin: auto; /* Keeps the container centered */
+}
