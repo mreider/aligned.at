@@ -22,3 +22,9 @@ body {
   margin-bottom: 10px; /* Adds space between items */
   cursor: default; /* Removes the pointer cursor */
 }
+
+.fixed-top-link {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
