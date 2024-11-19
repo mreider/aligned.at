@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Matt&#39;s Product Blog</title>
+    <link>https://aligned.at/tags/</link>
+    <description>Recent content in Tags on Matt&#39;s Product Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aligned.at/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expat Life</title>
+      <link>https://aligned.at/tags/expat-life/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://aligned.at/tags/expat-life/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<footer id="footer">
+    {{ if .Site.Social }}
+        {{ partial "social.html" . }}
+    {{ end }}
+
+    <div class="copyright">
+    {{ with .Site.Params.copyright }}
+        {{ . | markdownify }}
+    {{ else }}
+       © Copyright 
+       {{ now.Format "2006"}} 
+       <span class="split">
+        {{ partial "svgs/heart.svg" (dict "fill" "#bbbbbb" "width" 15 "height" 15 ) }}
+         </span>
+       &nbsp;{{ .Site.Params.Author }}
+    {{ end }}
+    </div>
+    {{ if ne .Site.Params.showPowerBy false }}
+      <div class="powerby">
+        {{ i18n "poweredBy" | safeHTML }}
+      </div>
+      <div class="powerby">
+        <img src="/images/Written-By-Human.png" alt="writte by human" height="42">
+      </div>
+    {{ end }}
+
+    <section class="h-card" style="display: none;">
+        <!-- Name -->
+        <span class="p-name">Matt Reider</span>
+        
+        <!-- Profile Picture -->
+        <img class="u-photo" src="/images/me.jpeg" alt="Matt Reider">
+        
+        <!-- Bio or Description -->
+        <span class="p-note">Fifteen years of product management. Thirty years in software.</span>
+        
+        <!-- URL -->
+        <a class="u-url" href="https://aligned.at">https://aligned.at</a>
+        
+        <!-- Email (Optional) -->
+        <a class="u-email" href="mailto:mreider@aligned.at">mreider@aligned.at</a>
+        
+        <!-- Social Links (Optional, add more as needed) -->
+        <a class="u-url" rel="me" href="https://github.com/mreider">GitHub</a>
+        <a class="u-url" rel="me" href="https://www.linkedin.com/in/mreider">LinkedIn</a>
+        
+        <!-- Location (Optional) -->
+        <span class="p-locality">Vienn, Austria</span>
+    </section>
+</footer>
+
+{{ range .Site.Params.customJS }}
+    {{ if ( or ( hasPrefix . "http://" ) ( hasPrefix . "https://" ) ) }}
+        <!-- remote js -->
+        <script src="{{ . }}"></script>
+    {{ else }}
+        <!-- local js -->
+        <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+    {{ end }}
+{{ end }}

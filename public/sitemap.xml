@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://aligned.at/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/about/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/tags/expat-life/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/posts/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/tags/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/posts/week-2/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/categories/</loc>
+  </url>
+</urlset>
