@@ -1,7 +1,8 @@
 +++
-title = "Startup's 1st PM: Henchman or a Hero?"
+title = "Hiring your first PM"
 date = "2024-11-20"
-tags = ["startups,hiring"]
+summary = "Your startup’s first PM isn’t there to reinvent the wheel but to align your team around the founder’s vision, refine existing processes, and drive execution to keep things moving forward."
+tags = ["startups","hiring"]
 +++
 
 I recently had a chat with the CEO of a small, scrappy, and successful startup. Let’s call him “Mike.”
