@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aligned.at/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/tags/expat-life/</loc>
+    <loc>http://localhost:1313/tags/expat-life/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/posts/week-2/</loc>
+    <loc>http://localhost:1313/posts/week-2/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://aligned.at/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
