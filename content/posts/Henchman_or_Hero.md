@@ -1,6 +1,6 @@
 +++
 title = "Hiring your first PM"
-date = "2024-11-20"
+date = "2024-10-20"
 summary = "Your startup’s first PM isn’t there to reinvent the wheel but to align your team around the founder’s vision, refine existing processes, and drive execution to keep things moving forward."
 tags = ["startups","hiring"]
 +++
