@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/startups/</loc>
+    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tales-from-engine-yard/</loc>
+    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/expat-life/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/a-startups-first-pm/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/week-2/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/hiring/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

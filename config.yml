@@ -1,7 +1,6 @@
 baseURL: https://aligned.at
 languageCode: en-us
 title: "Connecting the Dots"
-bio: "Stories About Product Alignment and Team Dynamics"
 theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
@@ -45,6 +44,7 @@ params:
   # Site Author
   author: Matt Reider
   # Author biography
+  bio: "Stories about product alignment and team dynamics"
   # Site Description, used in HTML meat
   description: "Software product leader"
 

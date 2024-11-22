@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Connecting the Dots</title>
+    <title>Tales from Engine Yard | Connecting the Dots</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-<meta name="description" content="Software product leader">
+<meta name="description" content="Engine Yard, once a pioneer in Ruby on Rails hosting and early cloud platforms, ultimately failed due to strategic missteps.">
 <meta name="generator" content="Hugo 0.123.1">
 
 
@@ -26,11 +26,6 @@
 
 
 
-
-  
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Connecting the Dots" />
-    <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Connecting the Dots" />
-  
 
 
 
@@ -53,68 +48,76 @@
 
     <main class="main">
       
-<header class="profile">
+
+<section id="single" class="h-entry">
+    <h1 class="title p-name">Tales from Engine Yard</h1>
+
+    <div class="tip">
+        <time class="dt-published" datetime="2024-11-21 00:00:00 &#43;0000 UTC">Nov 21, 2024</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          791 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          4 minute read
+        </span>
+    </div>
+
     
-        <img class="avatar" alt="avatar" src="/images/cars.png" />
+    
+        
+  
+
+
     
 
-    <h1>Connecting the Dots</h1>
-    
-    
-      <h2>Stories about product alignment and team dynamics</h2>
-    
-</header>
+    <div class="content e-content">
+      <p>We were one of the original cloud vendors, back before &ldquo;cloud&rdquo; meant what it does today. Our infrastructure was built on custom-patched Gentoo servers—lovingly nicknamed &ldquo;pizza boxes&rdquo; — housed in two data centers on opposite coasts. Every customer knew the exact moment their pizza boxes would light up, serving traffic. It wasn’t like the elastic cloud of today. You couldn’t just spin up a VM and shut it down at will. Scaling required humans. As the head of our support team jokingly called it, we were a &ldquo;meat cloud.&rdquo;</p>
+<p>Still, we were ahead of the game, offering a platform as a service (PaaS) specifically for Ruby on Rails apps, MongoDB, and MySQL databases. Customers didn’t have to configure anything. You pushed your code, and it &ldquo;just worked.&rdquo;</p>
+<p>Our co-founder, Ezra Zygmuntowicz, was a legend in the Ruby community. He authored Merb, which later merged with Rails. And there were other Ruby on Rails heros there too. Wayne Seguin (creator of RVM), Carl Lerche, Yehuda Katz (co-creators of Bundler), Evan Phoenix (Rubinius), and eventually the entire JRuby team. Engine Yard wasn’t just a hosting company — it was a friendly sponsor for open-source talent.</p>
+<p>By the time I arrived, none of these folks were working directly on Engine Yard&rsquo;s product. They were focused on Rails itself, pushing the ecosystem forward. They ate lunch with us, joked with us, and drank with us. Well, not so much with me — I was at least 15 years older, with toddlers at home, a house in the suburbs, and zero tattoos.</p>
+<p>The product itself was a bit of a mess by then. Every customer had their own slightly customized setup running on slightly different Gentoo configurations, with shared storage from an inexpensive vendor (CORAID) that was notoriously fragile under load. When shared storage failed, it would take down clusters, causing blackouts or brownouts for customers. Much of my time was spent on the phone with customers, investigating problems, writing postmortems, and negotiating compensation.</p>
+<p>Our customers were a who’s who of Ruby startups including GitHub, New Relic, and Groupon. Hosting GitHub for free gave us credibility in the Rails community — it was marketing gold. But years went by and GitHub never paid us a dime. That was weird.</p>
+<p>We joked that Engine Yard &ldquo;sold dollars for 99 cents.&rdquo;</p>
+<p>Even though this happened before my time, it stings when I read quotes from Github&rsquo;s co-founders about never needing venture funding. Of course they didn’t — we footed 100% of their infrastructure bill.</p>
+<p>The New Guard</p>
+<p>When I joined (2009) things were changing. Investors wanted profitability and a “real” product. The new guard was tasked with transforming our quirky, beloved platform into something scalable and maintainable. Our job was to clean up the snowflakes — migrating customers off their custom setups to something sustainable and retiring the clusters in our data centers.</p>
+<p>The migration effort was massive.</p>
+<p>We gave customers three options:</p>
+<ol>
+<li>Move to Engine Yard on Terremark Cloud at a premium cost with better shared storage.</li>
+<li>Refactor their apps into &ldquo;12-factor apps&rdquo; (the Heroku term that preceded &ldquo;cloud-native&rdquo;) and move to Engine Yard on AWS.</li>
+<li>Leave Engine Yard entirely.</li>
+</ol>
+<p>Some customers migrated with us - but many left. GitHub was one of them. For those who stayed, we coordinated migrations and tracked progress. It was messy work, but we got it done. To celebrate, we smashed an old pizza box with a sledgehammer in the parking lot of Tres Agaves, a nearby Mexican restaurant. It more gimmicky, and less satisfying, than we’d hoped.</p>
+<p>The Decline</p>
+<p>Even after the migrations, things didn’t go very well. Heroku, our biggest competitor, had been acquired by Salesforce and was dominating the Rails hosting market They’d opted for a cloud-native design earlier and had stronger UX. Also, by then, they supported more than just Rails.</p>
+<p>There were also major missed opportunities. VMware offered to buy us for something like $200 million. Our founders turned it down, thinking it wasn’t enough. Ezra told me about it - in of all places - the bathroom. He was crushed. He wanted the payout. Not long after, he left Engine Yard to work on Cloud Foundry at VMware. Tragically, he took his own life a few years later, leaving behind a wife and a newborn son.</p>
+<p>In the end, Engine Yard struggled to survive. The cult-like energy of the Rails community, which had once made us special, wasn’t enough to sustain us. I’d bought stock in the company, hoping they&rsquo;d IPO. But like so many startups, the certificate turned out to be worthless.</p>
+<p>While I never got that life-changing exit, I did get some great stories. And honestly, those memories are worth something too — though, let’s be real, I’d still rather have the cash.</p>
 
-<section id="archive" class="h-feed">
-    
-        <div class="group">
-            <h3 class="key">
-                2024
-            </h3>
+    </div>
 
+    
+        <div class="tags">
             
-                <div class="value">
-                  <div class="date">
-                    <time datetime="2024-11-21 00:00:00 &#43;0000 UTC">Nov 21</time>
-                  </div>
-                  <div class="title">
-                      <a class="p-name u-url" href="http://localhost:1313/posts/tales-from-engine-yard/">
-                          Tales from Engine Yard
-                      </a>
-
-                      
-                          <div class="tags">
-                              
-                                  <a class="p-category" href="http://localhost:1313/tags/startups">startups</a>
-                              
-                          </div>
-                      
-                  </div>
-                </div>
+                <a class="p-category" href="http://localhost:1313/tags/startups">startups</a>
             
-                <div class="value">
-                  <div class="date">
-                    <time datetime="2024-10-20 00:00:00 &#43;0000 UTC">Oct 20</time>
-                  </div>
-                  <div class="title">
-                      <a class="p-name u-url" href="http://localhost:1313/posts/a-startups-first-pm/">
-                          A Startup&#39;s First PM
-                      </a>
-
-                      
-                          <div class="tags">
-                              
-                                  <a class="p-category" href="http://localhost:1313/tags/startups">startups</a>
-                              
-                                  <a class="p-category" href="http://localhost:1313/tags/hiring">hiring</a>
-                              
-                          </div>
-                      
-                  </div>
-                </div>
-                      
         </div>
     
+    
+    
+  <div id="comment">
+    
+    
+  </div>
+
+
 </section>
 
 
