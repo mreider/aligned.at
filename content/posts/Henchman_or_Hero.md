@@ -1,7 +1,7 @@
 +++
 title = "The Early PM’s Role: Aligning Vision and Team"
 date = "2024-11-20"
-summary = "Reflecting on the unique challenges and lessons of being one of the first product managers at a startup."
+summary = "Defining direction as the first product managers at a startup"
 tags = ["startups","hiring"]
 +++
 
