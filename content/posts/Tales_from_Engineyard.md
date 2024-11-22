@@ -1,7 +1,7 @@
 +++
-title = "Tales from Engine Yard"
-date = "2024-11-21"
-summary = "Engine Yard, once a pioneer in Ruby on Rails hosting and early cloud platforms, ultimately failed due to strategic missteps."
+title = "Engine Yard and the Cost of Venture Capital"
+date = "2024-10-19"
+summary = "Reflecting on the rise and fall of Engine Yard and how venture funding shaped its direction"
 tags = ["startups"]
 +++
 
@@ -19,9 +19,9 @@ Our customers were a who’s who of Ruby startups including GitHub, New Relic, a
 
 We joked that Engine Yard "sold dollars for 99 cents."
 
-Even though this happened before my time, it stings when I read quotes from Github's co-founders about never needing venture funding. Of course they didn’t — we footed 100% of their infrastructure bill.
+Even though the agreement to host GitHub for free started before my time, it stings when I read quotes from GitHub's co-founders about never needing venture funding. Of course they didn’t — we footed their infrastructure bill.
 
-The New Guard
+## The New Guard
 
 When I joined (2009) things were changing. Investors wanted profitability and a “real” product. The new guard was tasked with transforming our quirky, beloved platform into something scalable and maintainable. Our job was to clean up the snowflakes — migrating customers off their custom setups to something sustainable and retiring the clusters in our data centers.
 
@@ -42,5 +42,3 @@ Even after the migrations, things didn’t go very well. Heroku, our biggest com
 There were also major missed opportunities. VMware offered to buy us for something like $200 million. Our founders turned it down, thinking it wasn’t enough. Ezra told me about it - in of all places - the bathroom. He was crushed. He wanted the payout. Not long after, he left Engine Yard to work on Cloud Foundry at VMware. Tragically, he took his own life a few years later, leaving behind a wife and a newborn son.
 
 In the end, Engine Yard struggled to survive. The cult-like energy of the Rails community, which had once made us special, wasn’t enough to sustain us. I’d bought stock in the company, hoping they'd IPO. But like so many startups, the certificate turned out to be worthless.
-
-While I never got that life-changing exit, I did get some great stories. And honestly, those memories are worth something too — though, let’s be real, I’d still rather have the cash.
