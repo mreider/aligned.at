@@ -1,8 +1,8 @@
 +++
 title = "Tales from Engine Yard"
 date = "2024-11-21"
-summary = "Engine Yard was an early pioneer in Ruby on Rails and hosting, but it struggled with scaling infrastructure and made some bad calls along the way"
-tags = ["startups","hiring"]
+summary = "Engine Yard, once a pioneer in Ruby on Rails hosting and early cloud platforms, ultimately failed due to strategic missteps."
+tags = ["startups"]
 +++
 
 We were one of the original cloud vendors, back before "cloud" meant what it does today. Our infrastructure was built on custom-patched Gentoo servers—lovingly nicknamed "pizza boxes" — housed in two data centers on opposite coasts. Every customer knew the exact moment their pizza boxes would light up, serving traffic. It wasn’t like the elastic cloud of today. You couldn’t just spin up a VM and shut it down at will. Scaling required humans. As the head of our support team jokingly called it, we were a "meat cloud."

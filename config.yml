@@ -1,6 +1,7 @@
 baseURL: https://aligned.at
 languageCode: en-us
-title: Aligned — or Not at All
+title: "Connecting the Dots"
+bio: "Stories About Product Alignment and Team Dynamics"
 theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
