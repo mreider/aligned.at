@@ -1,7 +1,7 @@
 +++
 title = "Engine Yard and the Cost of Venture Capital"
 date = "2024-10-19"
-summary = "Reflecting on the rise and fall of Engine Yard and how venture funding shaped its direction"
+summary = "Sharing my experiences at Engine Yard and how venture funding shaped its future"
 tags = ["startups"]
 +++
 
