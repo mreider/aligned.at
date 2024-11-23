@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/tags/cloudfoundry/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/startups/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/tags/kubernetes/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/tags/pivotal/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tales-from-engine-yard/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/posts/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://aligned.at/tags/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/posts/vmware-pivotal-and-the-rise-of-kubernetes/</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/tags/hiring/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/tags/startups/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aligned.at/about/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a-startups-first-pm/</loc>
-    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
+    <loc>https://aligned.at/posts/engine-yard-and-the-cost-of-venture-capital/</loc>
+    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hiring/</loc>
-    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://aligned.at/categories/</loc>
   </url>
 </urlset>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hiring on Connecting the Dots</title>
-    <link>http://localhost:1313/tags/hiring/</link>
-    <description>Recent content in Hiring on Connecting the Dots</description>
+    <title>Hiring on When It Comes Together (or Falls Apart)</title>
+    <link>https://aligned.at/tags/hiring/</link>
+    <description>Recent content in Hiring on When It Comes Together (or Falls Apart)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aligned.at/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Startup&#39;s First PM</title>
-      <link>http://localhost:1313/posts/a-startups-first-pm/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/a-startups-first-pm/</guid>
-      <description>Sometimes a startup’s first PM is simply there to align the team.</description>
+      <title>The Early PM’s Role: Aligning Vision and Team</title>
+      <link>https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/</guid>
+      <description>Defining direction as the first product managers at a startup</description>
     </item>
   </channel>
 </rss>
