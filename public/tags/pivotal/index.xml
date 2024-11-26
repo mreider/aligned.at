@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pivotal on When It Comes Together (or Falls Apart)</title>
-    <link>https://aligned.at/tags/pivotal/</link>
+    <link>http://localhost:1313/tags/pivotal/</link>
     <description>Recent content in Pivotal on When It Comes Together (or Falls Apart)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aligned.at/tags/pivotal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pivotal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware, Pivotal and the rise of Kubernetes</title>
-      <link>https://aligned.at/posts/vmware-pivotal-and-the-rise-of-kubernetes/</link>
+      <link>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://aligned.at/posts/vmware-pivotal-and-the-rise-of-kubernetes/</guid>
+      <guid>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</guid>
       <description>Building a successful platform, spinning out into something new, and facing big shifts in the industry</description>
     </item>
   </channel>

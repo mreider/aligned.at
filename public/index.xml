@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>When It Comes Together (or Falls Apart)</title>
-    <link>https://aligned.at/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on When It Comes Together (or Falls Apart)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aligned.at/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware, Pivotal and the rise of Kubernetes</title>
-      <link>https://aligned.at/posts/vmware-pivotal-and-the-rise-of-kubernetes/</link>
+      <link>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://aligned.at/posts/vmware-pivotal-and-the-rise-of-kubernetes/</guid>
+      <guid>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</guid>
       <description>Building a successful platform, spinning out into something new, and facing big shifts in the industry</description>
     </item>
     <item>
       <title>The Early PM’s Role: Aligning Vision and Team</title>
-      <link>https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/</link>
+      <link>http://localhost:1313/posts/the-early-pms-role-aligning-vision-and-team/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/</guid>
+      <guid>http://localhost:1313/posts/the-early-pms-role-aligning-vision-and-team/</guid>
       <description>Defining direction as the first product managers at a startup</description>
     </item>
     <item>
       <title>Engine Yard and the Cost of Venture Capital</title>
-      <link>https://aligned.at/posts/engine-yard-and-the-cost-of-venture-capital/</link>
+      <link>http://localhost:1313/posts/engine-yard-and-the-cost-of-venture-capital/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://aligned.at/posts/engine-yard-and-the-cost-of-venture-capital/</guid>
+      <guid>http://localhost:1313/posts/engine-yard-and-the-cost-of-venture-capital/</guid>
       <description>Sharing my experiences at Engine Yard and how venture funding shaped its future</description>
     </item>
   </channel>

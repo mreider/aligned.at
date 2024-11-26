@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>When It Comes Together (or Falls Apart)</title>
 
     <meta charset="utf-8">
@@ -45,11 +45,28 @@
 	<a href="/tags">Tags</a>
 	<a href="/about">About</a>
 	
-
-	
-	  <a class="button" href="https://aligned.at/index.xml">RSS</a>
-	
+	<form id="subscription-form" class="subscription-form">
+		<input type="email" name="email" placeholder="Your email" required>
+		<button type="submit">Subscribe</button>
+	</form>
 </nav>
+<script>
+	const form = document.getElementById("subscription-form");
+	form.addEventListener("submit", async (e) => {
+		e.preventDefault();
+		const email = form.email.value;
+		const response = await fetch("https://quacker.eu/subscribe/1", {
+			method: "POST",
+			headers: { "Content-Type": "application/json" },
+			body: JSON.stringify({ email })
+		});
+		if (response.ok) {
+			form.innerHTML = "<p>Thank you for subscribing!</p>";
+		} else {
+			form.innerHTML = "<p>Something went wrong. Please try again later.</p>";
+		}
+	});
+</script>
 
     <main class="main">
       
@@ -79,16 +96,16 @@
                       <time datetime="2024-11-20 00:00:00 &#43;0000 UTC">Nov 20</time>
                   </div>
                   <div class="title">
-                      <a class="p-name u-url" href="https://aligned.at/posts/the-early-pms-role-aligning-vision-and-team/">
+                      <a class="p-name u-url" href="http://localhost:1313/posts/the-early-pms-role-aligning-vision-and-team/">
                           The Early PM’s Role: Aligning Vision and Team
                       </a>
 
                       
                           <div class="tags">
                               
-                                  <a class="p-category" href="https://aligned.at/tags/startups">startups</a>
+                                  <a class="p-category" href="http://localhost:1313/tags/startups">startups</a>
                               
-                                  <a class="p-category" href="https://aligned.at/tags/hiring">hiring</a>
+                                  <a class="p-category" href="http://localhost:1313/tags/hiring">hiring</a>
                               
                           </div>
                       
@@ -100,14 +117,14 @@
                       <time datetime="2024-10-19 00:00:00 &#43;0000 UTC">Oct 19</time>
                   </div>
                   <div class="title">
-                      <a class="p-name u-url" href="https://aligned.at/posts/engine-yard-and-the-cost-of-venture-capital/">
+                      <a class="p-name u-url" href="http://localhost:1313/posts/engine-yard-and-the-cost-of-venture-capital/">
                           Engine Yard and the Cost of Venture Capital
                       </a>
 
                       
                           <div class="tags">
                               
-                                  <a class="p-category" href="https://aligned.at/tags/startups">startups</a>
+                                  <a class="p-category" href="http://localhost:1313/tags/startups">startups</a>
                               
                           </div>
                       
