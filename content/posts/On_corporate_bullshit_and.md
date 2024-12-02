@@ -8,7 +8,7 @@ images = ["/images/matt/bull.jpg"]
 
 Every night at 9:00 PM, I walk my dog, Leo, while listening to podcasts like **Hidden Brain** with Shankar Vedantam. In a [recent episode](https://hiddenbrain.org/podcast/the-benefits-of-mixed-emotions/), Naomi Rothman discussed how society favors leaders who project certainty over ambivalence—often preferring confident leadership even when it’s based on incomplete or inaccurate information. She cited a study where CEOs admitting uncertainty during earnings calls were judged more harshly and seen as less competent, despite their honesty.
 
-We, as a society, expect and reward this behavior in our leaders. This might explain why there's so much bullshit everywhere. As [George Carlin noted](https://www.youtube.com/watch?v=Ym12wnIWh-U), the world is full of it.
+We, as a society, expect and reward this behavior in our leaders. This might explain why there's so much bullshit everywhere. As [George Carlin noted](https://www.youtube.com/watch?v=QMKEJqzt5lg), the world is full of it.
 
 Rothman:
 
