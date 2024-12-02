@@ -12,7 +12,7 @@ Rothman:
 
 > Everyone wants a leader to be black and white because otherwise, they might look inauthentic if they change and are inconsistent. We think they will help us and provide us with certainty about how to act. And it's very interesting to notice that that does seem to have emerged as the prototypical model of what it looks like to be a leader.
 
-Some leaders, however, embrace ambivalence and cut through the bullshit. Instead of pushing for certainty, they sit on the same side of the table with their teams. This often happens in complex situations that need collaboration and problem-solving. In Product Management, this kind of teamwork is key, with leaders working as peers rather than bosses.
+Some leaders, however, embrace ambivalence. Instead of pushing for certainty, they sit on the same side of the table with their teams. This often happens in complex situations that need collaboration and problem-solving. In Product Management, this kind of teamwork is key, with leaders working as peers rather than bosses.
 
 Rothman (again):
 
