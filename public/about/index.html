@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>About | Matt&#39;s Product Blog</title>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>About | Could work. Might not.</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
@@ -13,7 +13,11 @@
 
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-
+<meta property="og:title" content="About" />
+<meta property="og:description" content="About me" />
+<meta property="og:image" content="https://aligned.at/images/me.jpg" />
+<meta property="og:url" content="http://localhost:1313/about/" />
+<meta property="og:type" content="website" />
 <link rel="stylesheet" href="/css/style.css">
 
 
@@ -28,8 +32,8 @@
 
 
   
-    <link href="/about/index.xml" rel="alternate" type="application/rss+xml" title="Matt&#39;s Product Blog" />
-    <link href="/about/index.xml" rel="feed" type="application/rss+xml" title="Matt&#39;s Product Blog" />
+    <link href="/about/index.xml" rel="alternate" type="application/rss+xml" title="Could work. Might not." />
+    <link href="/about/index.xml" rel="feed" type="application/rss+xml" title="Could work. Might not." />
   
 
 
@@ -45,22 +49,84 @@
 	<a href="/tags">Tags</a>
 	<a href="/about">About</a>
 	
-
-	
-	  <a class="button" href="https://aligned.at/index.xml">RSS</a>
-	
+  <form id="subscription-form" class="subscription-form">
+    <input type="email" name="email" required placeholder="Enter your email">
+    <button type="submit">Subscribe</button>
+  </form>
+	<p id="status-message" style="display: none;"></p>
 </nav>
+<script>
+	const form = document.getElementById('subscription-form');
+	const statusMessage = document.getElementById('status-message');
+
+	async function checkSubscriptionStatus(email) {
+			const url = "https://quacker.eu/subscribe/1"; 
+			const response = await fetch(`${url}?email=${encodeURIComponent(email)}`);
+			if (response.ok) {
+					const data = await response.json();
+					return data.is_subscribed;
+			}
+			return false;
+	}
+
+	form.addEventListener('submit', async (e) => {
+			e.preventDefault();
+
+			const emailInput = form.querySelector('input[name="email"]');
+			const button = form.querySelector('button');
+
+			const email = emailInput.value;
+			const url = "https://quacker.eu/subscribe/1"; 
+			const data = { email };
+
+			
+			const isSubscribed = await checkSubscriptionStatus(email);
+			if (isSubscribed) {
+					form.style.display = 'none';
+					statusMessage.style.display = 'block';
+					statusMessage.textContent = 'Already subscribed!';
+					return;
+			}
+
+			button.textContent = 'Please wait...';
+			button.disabled = true;
+			emailInput.disabled = true;
+
+			try {
+					const response = await fetch(url, {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: JSON.stringify(data),
+					});
+
+					if (response.ok) {
+							form.style.display = 'none';
+							statusMessage.style.display = 'block';
+							statusMessage.textContent = 'Subscribed successfully.';
+					} else {
+							throw new Error('Subscription failed.');
+					}
+			} catch (error) {
+					form.style.display = 'none';
+					statusMessage.style.display = 'block';
+					statusMessage.textContent = 'Something went wrong.';
+			}
+	});
+</script>
 
     <main class="main">
       
 <header class="profile">
     
-        <img class="avatar" alt="avatar" src="/images/row.png" />
+        <img class="avatar" alt="avatar" src="/images/cars.png" />
     
 
-    <h1>Matt&#39;s Product Blog</h1>
+    <h1>Could work. Might not.</h1>
     
     
+      <h2>Stories about product alignment and team dynamics</h2>
+    
+    <br/>
 </header>
 
 <section id="section">
@@ -92,7 +158,6 @@
         
         <svg fill="#bbbbbb" width="28" height="28"  viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     
-    <title>Github</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

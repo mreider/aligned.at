@@ -10,7 +10,11 @@
 {{ else }}
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 {{ end }}
-
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}" />
+<meta property="og:image" content="{{ with .Params.images }}{{ index . 0 }}{{ else }}{{ .Site.Params.images | default "https://aligned.at/images/me.jpg" }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
 
 {{ range .Site.Params.customCSS }}

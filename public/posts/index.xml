@@ -1,19 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Matt&#39;s Product Blog</title>
-    <link>https://aligned.at/posts/</link>
-    <description>Recent content in Posts on Matt&#39;s Product Blog</description>
+    <title>Posts on Could work. Might not.</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Could work. Might not.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aligned.at/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 2</title>
-      <link>https://aligned.at/posts/week-2/</link>
-      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://aligned.at/posts/week-2/</guid>
-      <description>The basics are in place. Kids have beds and bed frames. We do too. Everyone has a place to put their clothes. There is a dining room table with some temporary folding chairs. A desk in Zoe’s room and some bedside tables.&#xA;The bathroom has a new washer &amp;amp; dryer wedged between the sink and shower. They are supposed to stack, but they don’t stack very well, and this works — at least for now.</description>
+      <title>On Corporate Bullshit, Ambivalence, and Product Leadership</title>
+      <link>http://localhost:1313/posts/on-corporate-bullshit-ambivalence-and-product-leadership/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/on-corporate-bullshit-ambivalence-and-product-leadership/</guid>
+      <description>Ambivalence is a leadership weakness but a strength in Product Management</description>
+    </item>
+    <item>
+      <title>Making It Personal</title>
+      <link>http://localhost:1313/posts/making-it-personal/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/making-it-personal/</guid>
+      <description>Individualist Thinking and Product Success</description>
+    </item>
+    <item>
+      <title>VMware, Pivotal and the rise of Kubernetes</title>
+      <link>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vmware-pivotal-and-the-rise-of-kubernetes/</guid>
+      <description>Building a successful platform, spinning out into something new, and facing big shifts in the industry</description>
+    </item>
+    <item>
+      <title>Building Quacker: A Weekend Project with ChatGPT</title>
+      <link>http://localhost:1313/posts/building-quacker-a-weekend-project-with-chatgpt/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-quacker-a-weekend-project-with-chatgpt/</guid>
+      <description>Building an app with AI is both impressive and frustrating.</description>
+    </item>
+    <item>
+      <title>Why Founders Don’t Need a Strategist for Their First PM</title>
+      <link>http://localhost:1313/posts/why-founders-dont-need-a-strategist-for-their-first-pm/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-founders-dont-need-a-strategist-for-their-first-pm/</guid>
+      <description>It’s usually about execution, not vision—at least for now</description>
+    </item>
+    <item>
+      <title>Engine Yard and the Cost of Venture Capital</title>
+      <link>http://localhost:1313/posts/engine-yard-and-the-cost-of-venture-capital/</link>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/engine-yard-and-the-cost-of-venture-capital/</guid>
+      <description>Sharing my experiences at Engine Yard and how venture funding shaped its future</description>
     </item>
   </channel>
 </rss>

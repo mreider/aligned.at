@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product-Management on Could work. Might not.</title>
+    <link>http://localhost:1313/tags/product-management/</link>
+    <description>Recent content in Product-Management on Could work. Might not.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Corporate Bullshit, Ambivalence, and Product Leadership</title>
+      <link>http://localhost:1313/posts/on-corporate-bullshit-ambivalence-and-product-leadership/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/on-corporate-bullshit-ambivalence-and-product-leadership/</guid>
+      <description>Ambivalence is a leadership weakness but a strength in Product Management</description>
+    </item>
+  </channel>
+</rss>

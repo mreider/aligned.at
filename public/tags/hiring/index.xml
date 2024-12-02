@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hiring on Could work. Might not.</title>
+    <link>http://localhost:1313/tags/hiring/</link>
+    <description>Recent content in Hiring on Could work. Might not.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Founders Don’t Need a Strategist for Their First PM</title>
+      <link>http://localhost:1313/posts/why-founders-dont-need-a-strategist-for-their-first-pm/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-founders-dont-need-a-strategist-for-their-first-pm/</guid>
+      <description>It’s usually about execution, not vision—at least for now</description>
+    </item>
+  </channel>
+</rss>

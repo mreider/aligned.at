@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>Matt&#39;s Product Blog</title>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Could work. Might not.</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
@@ -13,7 +13,11 @@
 
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-
+<meta property="og:title" content="" />
+<meta property="og:description" content="Software product leader" />
+<meta property="og:image" content="https://aligned.at/images/me.jpg" />
+<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:type" content="website" />
 <link rel="stylesheet" href="/css/style.css">
 
 
@@ -28,8 +32,8 @@
 
 
   
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Matt&#39;s Product Blog" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Matt&#39;s Product Blog" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Could work. Might not." />
+    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Could work. Might not." />
   
 
 
@@ -43,50 +47,176 @@
 	<a href="/tags">Tags</a>
 	<a href="/about">About</a>
 	
-
-	
-	  <a class="button" href="https://aligned.at/index.xml">RSS</a>
-	
+  <form id="subscription-form" class="subscription-form">
+    <input type="email" name="email" required placeholder="Enter your email">
+    <button type="submit">Subscribe</button>
+  </form>
+	<p id="status-message" style="display: none;"></p>
 </nav>
+<script>
+	const form = document.getElementById('subscription-form');
+	const statusMessage = document.getElementById('status-message');
+
+	async function checkSubscriptionStatus(email) {
+			const url = "https://quacker.eu/subscribe/1"; 
+			const response = await fetch(`${url}?email=${encodeURIComponent(email)}`);
+			if (response.ok) {
+					const data = await response.json();
+					return data.is_subscribed;
+			}
+			return false;
+	}
+
+	form.addEventListener('submit', async (e) => {
+			e.preventDefault();
+
+			const emailInput = form.querySelector('input[name="email"]');
+			const button = form.querySelector('button');
+
+			const email = emailInput.value;
+			const url = "https://quacker.eu/subscribe/1"; 
+			const data = { email };
+
+			
+			const isSubscribed = await checkSubscriptionStatus(email);
+			if (isSubscribed) {
+					form.style.display = 'none';
+					statusMessage.style.display = 'block';
+					statusMessage.textContent = 'Already subscribed!';
+					return;
+			}
+
+			button.textContent = 'Please wait...';
+			button.disabled = true;
+			emailInput.disabled = true;
+
+			try {
+					const response = await fetch(url, {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: JSON.stringify(data),
+					});
+
+					if (response.ok) {
+							form.style.display = 'none';
+							statusMessage.style.display = 'block';
+							statusMessage.textContent = 'Subscribed successfully.';
+					} else {
+							throw new Error('Subscription failed.');
+					}
+			} catch (error) {
+					form.style.display = 'none';
+					statusMessage.style.display = 'block';
+					statusMessage.textContent = 'Something went wrong.';
+			}
+	});
+</script>
 
     <main class="main">
       
 <header class="profile">
     
-        <img class="avatar" alt="avatar" src="/images/row.png" />
+        <img class="avatar" alt="avatar" src="/images/cars.png" />
     
 
-    <h1>Matt&#39;s Product Blog</h1>
+    <h1>Could work. Might not.</h1>
     
     
+      <h2>Stories about product alignment and team dynamics</h2>
+    
+    <br/>
 </header>
-
 <div id="list-page">
     
     
     
+         
         
         
         <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/week-2/'>Week 2</a></h1>
-            <div class ="date">
-                <time datetime="2019-08-29 00:00:00 &#43;0000 UTC">Aug 29, 2019</time>  
+          <div class="post-header">
+            
+            <div class="thumbnail">
+              <a href="/posts/on-corporate-bullshit-ambivalence-and-product-leadership/"> 
+                <img src="/images/matt/bull.jpg" alt="Thumbnail for On Corporate Bullshit, Ambivalence, and Product Leadership">
+              </a>
+            </div>
+            
+            <div class="post-details">
+              <h1 class="title"><a href="/posts/on-corporate-bullshit-ambivalence-and-product-leadership/">On Corporate Bullshit, Ambivalence, and Product Leadership</a></h1>
+              <div class="date">
+                  <time datetime="2024-12-02 00:00:00 &#43;0000 UTC">Dec 2, 2024</time>
+              </div>
             </div>
           </div>
-
           
-              <div class="summary">The basics are in place. Kids have beds and bed frames. We do too. Everyone has a place to put their clothes. There is a dining room table with some temporary folding chairs. A desk in Zoe’s room and some bedside tables.
-The bathroom has a new washer &amp; dryer wedged between the sink and shower. They are supposed to stack, but they don’t stack very well, and this works — at least for now.</div>
+              <div class="summary">Ambivalence is a leadership weakness but a strength in Product Management</div>
           
-
+        </section>
+    
+         
+        
+        
+        <section class="item">
+          <div class="post-header">
+            
+            <div class="thumbnail">
+              <a href="/posts/making-it-personal/"> 
+                <img src="/images/matt/king_john.jpg" alt="Thumbnail for Making It Personal">
+              </a>
+            </div>
+            
+            <div class="post-details">
+              <h1 class="title"><a href="/posts/making-it-personal/">Making It Personal</a></h1>
+              <div class="date">
+                  <time datetime="2024-11-29 00:00:00 &#43;0000 UTC">Nov 29, 2024</time>
+              </div>
+            </div>
+          </div>
+          
+              <div class="summary">Individualist Thinking and Product Success</div>
+          
+        </section>
+    
+         
+        
+        
+        <section class="item">
+          <div class="post-header">
+            
+            <div class="thumbnail">
+              <a href="/posts/vmware-pivotal-and-the-rise-of-kubernetes/"> 
+                <img src="/images/matt/Tidal_Wave.jpg" alt="Thumbnail for VMware, Pivotal and the rise of Kubernetes">
+              </a>
+            </div>
+            
+            <div class="post-details">
+              <h1 class="title"><a href="/posts/vmware-pivotal-and-the-rise-of-kubernetes/">VMware, Pivotal and the rise of Kubernetes</a></h1>
+              <div class="date">
+                  <time datetime="2024-11-28 00:00:00 &#43;0000 UTC">Nov 28, 2024</time>
+              </div>
+            </div>
+          </div>
+          
+              <div class="summary">Building a successful platform, spinning out into something new, and facing big shifts in the industry</div>
+          
         </section>
     
 
     
-
-
+        <div class="pagination">
+          
+          
+              <span class="next">
+                  <a href="/page/2/">
+                      Older posts <span class="arrow">→</span>
+                  </a>
+              </span>
+          
+        </div>
+    
 </div>
+
 
     </main>
     
@@ -99,7 +229,6 @@ The bathroom has a new washer &amp; dryer wedged between the sink and shower. Th
         
         <svg fill="#bbbbbb" width="28" height="28"  viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     
-    <title>Github</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

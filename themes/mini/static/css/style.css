@@ -10,6 +10,65 @@ body {
   letter-spacing: 0.008em;
 }
 
+nav.navigation form.subscription-form {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+nav.navigation form.subscription-form label {
+  font-size: 13px;
+  color: #404040;
+  margin-right: 8px;
+}
+
+nav.navigation form.subscription-form input[type="email"] {
+  font-size: 13px;
+  padding: 6px 10px;
+  border: 1px solid #dadadc;
+  border-radius: 3px;
+  width: 180px;
+  max-width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+nav.navigation form.subscription-form button {
+  font-size: 13px;
+  padding: 6px 12px;
+  background-color: #5badf0;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+nav.navigation form.subscription-form button:hover {
+  background-color: #0366d6;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 700px) {
+  nav.navigation form.subscription-form {
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav.navigation form.subscription-form input[type="email"],
+  nav.navigation form.subscription-form button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  nav.navigation form.subscription-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+
+
 a {
   text-decoration: none;
   color: #5badf0;
@@ -93,6 +152,7 @@ pre {
 .markdown-image img {
   max-width: 100%;
 }
+
 .anchor { 
   font-size: 100%; 
   visibility: hidden; 
@@ -285,7 +345,9 @@ nav.navigation a.button {
 }
 
 #list-page .item {
-  margin: 12px 0;
+  margin-bottom: 1.5rem; /* Space between posts */
+  border-bottom: 1px solid #dadadc; /* Optional separator */
+  padding-bottom: 1rem; /* Space below each item */
 }
 
 #list-page .title {
@@ -316,11 +378,9 @@ nav.navigation a.button {
 }
 
 #list-page .summary {
-  color: #757575;
-  margin-top: 12px;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  margin-bottom: 36px;
+  margin-top: 0.5rem; /* Close to the title */
+  color: #757575; /* Neutral color for subtitle */
+  line-height: 1.5; /* Improve readability */
 }
 
 #list-page .cover {
@@ -531,4 +591,66 @@ nav.navigation a.button {
   position: relative;
   top: 1px;
   color: #bbb;
+}
+
+.thumbnail img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 15px; /* Space between elements */
+  text-align: left; /* Ensure everything aligns left */
+}
+
+.post-header .date {
+  white-space: nowrap; /* Prevent wrapping */
+  text-align: right;
+  color: #bbb; /* Subtle color for date */
+}
+
+.post-header .title {
+  flex: 1; /* Allow title to take up available space */
+  text-align: left; /* Align title to the left */
+  margin: 0;
+}
+
+.post-image {
+  width: 150px; /* Adjust to your preferred size */
+  height: 150px; /* Make height equal to width for a circle */
+  border-radius: 50%; /* Circular crop */
+  object-fit: cover; /* Ensure it crops to fit within the circle */
+  display: inline-block; /* Center alignment support */
+}
+
+.post-details {
+  flex: 1; /* Take up remaining space */
+}
+
+.post-details .title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left; /* Explicitly align title to the left */
+}
+
+#single .post-header {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack items vertically */
+  text-align: center;
+}
+
+#single .post-image {
+  width: 150px; /* Adjust to preferred size */
+  height: 150px;
+  border-radius: 50%; /* Circular crop */
+  object-fit: cover;
+  margin-bottom: 15px; /* Space below the image */
 }

@@ -1,6 +1,6 @@
 baseURL: https://aligned.at
 languageCode: en-us
-title: Matt's Product Blog
+title: "Could work. Might not."
 theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
@@ -44,6 +44,7 @@ params:
   # Site Author
   author: Matt Reider
   # Author biography
+  bio: "Stories about product alignment and team dynamics"
   # Site Description, used in HTML meat
   description: "Software product leader"
 
@@ -53,7 +54,7 @@ params:
   ###########################################
 
   # To enable RSS, you could set `enableRSS: true`, default is `true`
-  enableRSS: true
+  enableRSS: false
   # To enable comments, you may need to set `disqusShortname`
   enableComments: true
   # To enable comments, you may need to set `googleAnalytics`
